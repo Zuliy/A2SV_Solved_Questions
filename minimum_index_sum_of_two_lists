@@ -1,0 +1,18 @@
+class Solution:
+    def findRestaurant(self, list1, list2):
+        index_map = {value: i for i, value in enumerate(list1)}
+        
+        min_sum = float('inf')
+        result = []
+        
+        for j, value in enumerate(list2):
+            if value in index_map:
+                current_sum = j + index_map[value]
+                
+                if current_sum < min_sum:
+                    min_sum = current_sum
+                    result = [value]
+                elif current_sum == min_sum:
+                    result.append(value)
+        
+        return result
