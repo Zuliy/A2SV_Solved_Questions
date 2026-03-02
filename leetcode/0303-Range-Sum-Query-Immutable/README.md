@@ -2,7 +2,7 @@
 
 **Difficulty:** Easy
 
-**Problem:** [Range-Sum-Query-Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
+**Problem:** [Range-Sum-Query-Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)
 
 ---
 
